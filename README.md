@@ -7,10 +7,10 @@ jQiLogic
   
 *Example 1*
 <pre>
-  $('body').appendIf($('div[class=A]').length <= 0,$('<div>',{'class':'A'}));  
+  $(`body`).appendIf($(`div[class=A]`).length <= 0, $(`<div>`,{`class`:`A`}));  
 </pre>
   
 *Example 2*
 <pre>
-  $('body').appendIf($('div[class=A]').length <= 0,$('<div>',{'class':'A'}), $('<div>',{'class':'B'}));  
+  $(`body`).appendIf($(`div[class=A]`).length <= 0, $(`<div>`,{`class`:`A`}), $(`<div>`,{`class`:`B`}));  
 </pre>

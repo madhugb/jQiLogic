@@ -1,6 +1,8 @@
 jQiLogic
 ========
+
 *Introduction*
+
 jQiLogic is a small jquery plugin which is helpful to add inline conditions during jQuery append function.
 
 Lets directly jump to Examples:

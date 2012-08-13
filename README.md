@@ -14,5 +14,5 @@ Lets directly jump to Examples:
   
 *Example 2*
 <pre>
-$('body').appendIf($('div[class=A]').length &lt;= 0, $('&lt;div&gt;',{'class':'A'}), $('&lt;div&gt;',{'class':'B'}));  
+  $(`body`).appendIf($(`div[class=A]`).length &lt;= 0, $(`&lt;div&gt;`,{`class`:`A`}), $(`&lt;div&gt;`,{`class`:`B`}));  
 </pre>

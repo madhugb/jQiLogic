@@ -9,7 +9,7 @@ Lets directly jump to Examples:
   
 *Example 1*
 <pre>
-  $(`body`).appendIf($(`div[class=A]`).length <= 0, $(`<div>`,{`class`:`A`}));  
+  $( `body` ).appendIf( $( `div[class=A]` ).length <= 0, $( `<div>` ,{ `class` : `A` }));  
 </pre>
   
 *Example 2*

@@ -3,6 +3,13 @@
  * Copyright(c) 2012 Madhu <madhuvana@gmail.com>
  * https://github.com/madhugb/jQiLogic
  * 
+ *  Syntax:
+ *    $(element).appendIf(condition,true_case,false_case);
+ *             
+ *  Example 1:
+ *   $('body').appendIf($('div[class=A]').length <= 0, $('<div>',{'class':'A'}), $('<div>',{'class':'B'}));
+ *
+ *
  */
  
 (function($){  

@@ -7,8 +7,10 @@
  *    $(element).appendIf(condition,true_case,false_case);
  *             
  *  Example 1:
- *   $('body').appendIf($('div[class=A]').length <= 0, $('<div>',{'class':'A'}), $('<div>',{'class':'B'}));
- *
+ *    $('body').appendIf($('div[class=A]').length <= 0, $('<div>',{'class':'A'}));
+ *   
+ *  Example 2:
+ *    $('body').appendIf($('div[class=A]').length <= 0, $('<div>',{'class':'A'}), $('<div>',{'class':'B'}));
  *
  */
  

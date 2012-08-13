@@ -9,10 +9,10 @@ Lets directly jump to Examples:
   
 *Example 1*
 <pre>
-  $(`body`).appendIf( $(`div[class=A]`).length <= 0, $(`&lt;div&gt;`, { `class` : `A` }));  
+  $(`body`).appendIf( $(`div[class=A]`).length &lt;= 0, $(`&lt;div&gt;`, { `class` : `A` }));  
 </pre>
   
 *Example 2*
 <pre>
-$('body').appendIf($('div[class=A]').length <= 0, $('&lt;div&gt;',{'class':'A'}), $('&lt;div&gt;',{'class':'B'}));  
+$('body').appendIf($('div[class=A]').length &lt;= 0, $('&lt;div&gt;',{'class':'A'}), $('&lt;div&gt;',{'class':'B'}));  
 </pre>
